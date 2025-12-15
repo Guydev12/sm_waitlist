@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-indigo-600 text-white p-6">
+    <footer className="flex flex-col w-full bg-indigo-600 text-white p-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         {/* Left: Logo */}
         <div className="flex items-center gap-3">
@@ -15,7 +15,7 @@ export default function Footer() {
         </div>
 
         {/* Center: Social links */}
-        <div className="flex items-center gap-4 text-sm">
+        <div className="flex flex-col items-center justify-center gap-4 text-sm">
           <a
             href="https://web.facebook.com/profile.php?id=61583453152383"
             target="_blank"
