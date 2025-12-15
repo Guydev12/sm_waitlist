@@ -12,7 +12,7 @@ export default function Header() {
           className="w-40 bg-transparent"
         />
       </div>
-      <div className="w-[200px] ">
+      <div className="w-[200px] mr-4 ">
         <p className="font-bold text-2xl w-full ">Salon des Jeunes</p>
         <TripleLines />
       </div>
