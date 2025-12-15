@@ -21,8 +21,7 @@ export function WaitlistForm() {
     if (!fullName.trim() || !whatsappNumber.trim()) {
       toast.error("Veuillez remplir tous les champs");
       return;
-    }
-    else (whatsappNumber.length < 8 ) {
+    } else if (whatsappNumber.length < 8) {
       toast.error("Numero invalid");
       return;
     }
