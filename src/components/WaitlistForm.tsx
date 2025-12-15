@@ -22,6 +22,10 @@ export function WaitlistForm() {
       toast.error("Veuillez remplir tous les champs");
       return;
     }
+    else (whatsappNumber.length < 8 ) {
+      toast.error("Numero invalid");
+      return;
+    }
 
     const participant: Participant = {
       id: Date.now().toString(),
