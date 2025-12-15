@@ -49,7 +49,9 @@ export function WaitlistForm() {
           }),
         }
       );
-
+      participants.map((pat) => {
+        console.log(pat.id);
+      });
       // Update UI optimistically
       setParticipants((prev) => [...prev, participant]);
 
