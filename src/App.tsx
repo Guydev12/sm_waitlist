@@ -5,7 +5,7 @@ import { WaitlistForm } from "./components/WaitlistForm";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-linear-to-br ">
+    <div className="min-h-screen bg-linear-to-br from-yellow-50 to-yellow-500">
       <Header />
       <div className="container mt-40 mx-auto px-4 py-8 max-w-4xl">
         <Toaster position="top-right" richColors />
