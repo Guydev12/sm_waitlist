@@ -8,6 +8,7 @@ export default function Header() {
         <img
           alt="logo salon de motivation"
           src={logo}
+          loading="eager"
           className="w-40 bg-transparent"
         />
       </div>
