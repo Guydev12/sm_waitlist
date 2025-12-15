@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col w-full bg-indigo-600 text-white p-4">
+    <footer className="w-full bg-indigo-600 text-white p-4">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         {/* Left: Logo */}
         <div className="flex items-center gap-3">
